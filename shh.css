@@ -55,7 +55,6 @@
 
 #nav_bar a:hover {
 	color:#59B25E;
-	font-weight:700;
 }
 
 #nav_bar li {
@@ -85,10 +84,9 @@
 	color:white;
 	margin-top:-430px;
 	font-weight:300;
-	font-size:300%;
+	font-size:290%;
 	width:1200px;
 	line-height:1.5;
-	letter-spacing:1px;
 	opacity:.7;
 }
 
@@ -99,7 +97,7 @@
 	padding: 0;
 	border: none;
 	position:absolute;
-	margin-top:-165px;
+	margin-top:-215px;
 	-webkit-border-radius: .1em; 
 	-moz-border-radius: .1em;
 	border-radius: .1em;
@@ -385,6 +383,19 @@
 
 #services_three_contact p {
 	line-height:1;
+}
+
+#services_list_contact {
+	margin-bottom:340px;
+}
+
+#email_form {
+	margin-left:60px;
+}
+
+.jobs {
+	color:#59B25E;
+	text-decoration:none;
 }
 
 /*media queries */
@@ -949,6 +960,58 @@
 	.container_test {
 		height:4680px;
 	}
+}
+
+/* contact form */
+
+#page-wrap {
+	width: 300px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 300px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 300px;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+	color: #383838;
+	font-family:'Oxygen', sans-serif;
+}
+
+#contact-area textarea {
+	height: 50px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 1px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	margin-top:30px;
+	background-color:#59B25E; 
+	color:white;
+	text-transform:uppercase;
+	font-family:'Oxygen', sans-serif;
+}
+
+label {
+	float: left;
+	margin-right: 0px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1em;
 }
 
 
